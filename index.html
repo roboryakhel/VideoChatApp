@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+
+    <title>WebRTC Demo</title>
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <div class="videoComContent">
+        <div class="videoInner">
+          <video id="remoteVideo" autoplay playsinline></video>    
+        </div>
+      </div>  
+
+      <div class="settings">
+      </div>
+
+      <div class="bottomSec">
+
+        <div class="buttonWrapper">
+
+          <div class="">
+
+            <div id="controlsBox" style="display: none;">
+
+              
+                <button id="callButton">Create Call (offer)</button>
+              
+
+              <div>
+                <input id="callInput" />
+              </div>
+
+              <button id="answerButton" >Answer</button>
+
+            </div>
+
+            <button id="controls" type="button" class="btn controls">
+              <i class="fas fa-phone-volume fa-2x"></i>
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+
+          <div class="">
+            <button id="muteButton" type="button" class="btn mute"><i class="fas fa-microphone fa-1x"></i></button>
+          </div>
+
+          <div class="">
+            <button id="hangupButton" type="button" class="btn hangup"><i class="fas fa-phone-slash"></i></button>
+          </div>
+
+          <div class="">
+            <button id="webcamButton" type="button" class="btn video"><i class="fas fa-video"></i></button>
+          </div>
+ 
+        </div>
+
+        <div class="localWrapper">
+          <div class="local">
+            <div class="localInner">
+              <video id="webcamVideo" autoplay playsinline></video>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+<script type="module" src="/main.js"></script>
+  </body>
+</html>

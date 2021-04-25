@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+
+}
+
+body {
+  /* background: #000; */
+  direction: ltr;
+  font-family: 'Roboto',arial,sans-serif;
+  font-size: 12px;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0;
+  -webkit-user-select: none;
+
+}
+
+.btn-circle.btn-md {
+  width: 56px;
+  height: 56px;
+  padding: 7px 10px;
+  border-radius: 50%;
+  font-size: 10px;
+  text-align: center;
+  background-color:white;
+}
+
+
+video {
+  height: 100%;
+  width: 100%;
+  left: 50%;
+  min-height: 100%;
+  /* min-width: 100%; */
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper{
+  width: 100%;
+  height: 100%; 
+  position: absolute;
+  right: 0;
+}
+
+.videoComContent {
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.videoInner {
+  width: 1920px;
+  height: 1080px;
+  /* left: -231px;
+  top: 94px; */
+  position: absolute;
+  background-image: url("C:\Users\sohra\Desktop\WebRTC\webRTC-Demo\icons\abstract-user-flat-3.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20em 20em;
+  background-color: #acb8be;
+}
+
+.videoInner .remoteVideo {
+  height: calc(100% + 2px);
+  left: -1px;
+  pointer-events: none;
+  position: absolute;
+  top: -1px;
+  width: calc(100% + 2px);
+}
+
+
+.bottomSec {
+  bottom: 0;
+    height: auto;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    right: 0;
+}
+
+.localWrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 100%;
+  text-align: start;
+  padding: 8px 24px 0 24px;
+  height: 132px;
+  white-space: nowrap;
+  /* transition: bottom 250ms ease-out,height 250ms ease-out; */
+  box-sizing: border-box;
+  /* direction: rtl; */
+  overflow: auto;
+}
+
+.local {
+  background: rgba(0, 0, 0, 0.986);
+  display: inline-block;
+  position: relative;
+  outline-style: none;
+  overflow: hidden;
+  border: 1px solid gainsboro;
+  /* transition: transform 250ms ease-out 250ms;
+  -webkit-transform: translateZ(0);
+  direction: ltr; */
+  background-image: url("C:\Users\sohra\Desktop\WebRTC\webRTC-Demo\icons\abstract-user-flat-3.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 4em 4em;
+}
+
+.localInner {
+    width: 177px;
+    height: 100px;
+}
+
+.buttonWrapper {
+  margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    margin: auto;
+    width: 21%;
+    display: flex;
+}
+
+.buttonWrapper > div {
+  display: inline-block;
+  margin:auto;
+}
+
+ .mute, .hangup, .video, .controls {
+  min-width: inherit;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin: 16px 8px 40px 8px;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-color: rgba(0,0,0,0.38);
+}
+
+.controls {
+  width: 120px;
+  border-radius: 25px;
+  display: flex;
+}
+
+.hangup {
+  background-color: #f13b23;
+}
+
+.fa-microphone, .fa-video, .fa-phone-slash, .fa-phone-volume,.fa-bars{
+  color:white;
+  margin: auto;
+}
+
+.fa-phone-volume {
+  float: left;
+}
+
+.controlsBox {
+  height: 300px;
+  width: 120px;
+}
+
+#callButton, #answerButton {
+  width: 100%;
+  height: 35px;
+}
+
+#callInput {
+  width: 120px;
+  height:80px;
+}
+

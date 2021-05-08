@@ -187,3 +187,20 @@ video {
   height:80px;
 }
 
+button:hover  {
+  background-color: rgb(56, 51, 51);
+}
+
+
+.landingWrapper {
+  position: relative;
+}
+
+.lPControlls {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

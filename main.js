@@ -68,10 +68,6 @@ webcamButton.onclick = async () => {
 }
 
 
-
-
-
-
 // 1. setup media sources
 
 window.onload = async () => {
@@ -185,13 +181,3 @@ hangupButton.onclick = () => {
   webcamVideo.srcObject = localStream;
   remoteVideo.srcObject = remoteStream;
 }
-
-
-controls.onclick = () =>  {
-  const x = document.getElementById("controlsBox");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-};

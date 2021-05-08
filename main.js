@@ -5,13 +5,13 @@ import 'firebase/firestore';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD7Okt_Owk6QL8LDzjm58JTai_4MyY6lJs",
-  authDomain: "p2pwebrtc-6cb31.firebaseapp.com",
-  projectId: "p2pwebrtc-6cb31",
-  storageBucket: "p2pwebrtc-6cb31.appspot.com",
-  messagingSenderId: "480784379302",
-  appId: "1:480784379302:web:30db9eaed2345823d73367",
-  measurementId: "G-TSXVLR1JEW"
+  apiKey: XXXXXXXXXXXXXXXXXXXXXXXx,
+  authDomain: XXXXXXXXXXXXXXXXXX,
+  projectId: XXXXXXXXXXXXXXXXXXXXXX,
+  storageBucket: XXXXXXXXXXXXXXXXXXXXXXXXx,
+  messagingSenderId: XXXXXXXXXXXXXXXXXXXXXXX,
+  appId: XXXXXXXXXXXXXXXXXXXXXXXX,
+  measurementId: XXXXXXXx
 };
   // Initialize Firebase
 

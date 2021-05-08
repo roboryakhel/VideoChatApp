@@ -1,7 +1,1 @@
-make githubrepo
-fix button styling s when clicked
-fix config box button
-fix horizontal flip on video
-fix video aspect ration
-add txt chat
-add screenshot
+

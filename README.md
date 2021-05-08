@@ -1,4 +1,4 @@
-This is a Peer-to-Peer Video Chat app that is bult using WebRTC and Node JS.
+This is a Peer-to-Peer Video Chat app that is built using WebRTC and Node JS.
 
 Instructions:
 
